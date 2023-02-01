@@ -9,50 +9,50 @@
     <h1>In this project I learned how to display images in different projections</h1>
     
     <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <p>First, I installed the Indicatrix mapper extension on QGIS. Then, in the bottom left corner, I clicked on the function that allowed me to change the EPSG of the map. I then used the Indicatrix extension to put the caps and graticules on the map. From there, I went to print layout and added the map. Then, I added text which included the projection name and EPSG. Finally, I exported as a PNG before putting each map on this HTML. I then repeated the procees 6 times with different map projections to complete the project.</p>
     
     <h2>WGS84 Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This map looks like the most common maps you would see. That is not surprising because it is a Mercator map. It distorts the shape of countries, making places bigger as you approach the poles, and smaller as you approach the Equator.</h3>
     <a href=".//maps/4326.png">
     <img src=".//maps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
-    <h3>Some observations</h3>
+    <h3>This map almost seems like a flattened globe. The caps are largest in all 4 extremes of the map, meaning those are the most distorted.</h3>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
     <h2>WGS84</h2>
-    <h3>Some observations</h3>
+    <h3>This map is almost a perfect rectangle. The enlarged caps at the top and bottom indicate the land near the poles is drastically disproportionate to reality.</h3>
     <a href=".//maps/3857.png">
     <img src=".//maps/3857.png" alt="WGS84" width='500px'>
     </a>
     <h2>Sphere Winkel I</h2>
-    <h3>Some observations</h3>
+    <h3>To me, this feels like a better version of the Aitoff Projection. Similarly, it is like a flattened globe, but the proportions, while still not perfect, are more realistic.</h3>
     <a href=".//maps/53018.png">
     <img src=".//maps/53018.png" alt="Sphere Winkel I" width='500px'>
     </a>
     <h2>World Cylindrical Equal Area</h2>
-    <h3>Some observations</h3>
+    <h3>This is possibly the most unique map among the set. Land near the poles is drastically strectched horizontally, unlike any of the others. </h3>
     <a href=".//maps/54034.png">
     <img src=".//maps/54034.png" alt="World Cylindrical Equal Area" width='500px'>
     </a>
     <h2>World Equidistant Conic</h2>
-    <h3>Some observations</h3>
+    <h3>This is the first conic map in the project. Despite the obvious change in shape, the poles are still drastically larger and overrepresented in this map.</h3>
     <a href=".//maps/54027.png">
     <img src=".//maps/54027.png" alt="World Equidistant Conic" width='500px'>
     </a>
     <h2>North Pole Azimuthal Equidistant</h2>
-    <h3>Some observations</h3>
+    <h3>Here is a geocentric map. Like most of the other maps, the area around the poles is overrepresented and the land near the Equator is underrepresented.</h3>
     <a href=".//maps/10216.png">
     <img src=".//maps/10216.png" alt="North Pole Azimuthal Equidistant" width='500px'>
     </a>
     <h2>WGS84 (G873)</h2>
-    <h3>Some observations</h3>
+    <h3>Now back to Mercator maps, here is a similar map to another above. One slight difference is this map is slightly more stretched horizontally near the poles. Look at Northern Europe as an example.</h3>
     <a href=".//maps/9054.png">
     <img src=".//maps/9054.png" alt="WGS84 (G873)" width='500px'>
     </a>
     <h2>World Miller Cylindrical</h2>
-    <h3>Some observations</h3>
+    <h3>This map is quite interesting. It is the only cylindrical in the set, and seems nearly perfect from an aesthetic standpoint. Of course, the area near the poles and Equator is distorted; these areas are actually more distorted than the Mercators.</h3>
     <a href=".//maps/54003.png">
     <img src=".//maps/54003.png" alt="World Miller Cylindrical" width='500px'>
     </a>
