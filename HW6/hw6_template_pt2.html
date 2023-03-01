@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 6 part 2</title>
+</head>
+<body>
+<h1>Homework 6: Census data choropleth </h1>
+<h2>James Hoglund</h2>
+<h3>This first map is the Equal Quantile map. This breaks the counties into equal sized groups. That is, there are an equal amount of counties for each quantile. One drawback to this method is that the quantile ranges are disproportionate. For example, the darkest green category has a range of 0.188, while the lighest green category has a range of 0.018. This can often be misleading when there are outliers in the set of counties.</h3>
+<!-- Your map goes here -->
+<a href="yourmap.png">
+    <img src="Equal_Quantile.png" alt="your map" width='500px'>
+    </a>
+<h3>The next map is the Natural Breaks map. This breaks the data up into groups by "natural" breaks in the data. One con to this method is lack of diversity in the map. For example in the below map, the majority of the counties are white. Contrastly, there are only 5 counties with the darkest green color. </h3>
+<!-- Your map goes here -->
+<a href="yourmap.png">
+    <img src="Natural_Breaks.png" alt="your map" width='500px'>
+    </a>
+<h3>The final map is the Pretty Breaks map. As you can see all of the proportions are "pretty" numbers, excluding the highest and lowest data points. While this legend is the most aesthetically pleasing, it is often not the best method to use, since data is rarely broken up prettily.</h3>
+<!-- Your map goes here -->
+<a href="yourmap.png">
+    <img src="Pretty_Breaks.png" alt="your map" width='500px'>
+    </a>
+
+<!-- Link to your shapefile in Github and you CSV -->
+<h2>Data used for this project</h2>
+    <a href="DECENNIALPL2020/DECENNIALPL2020.P1-Data-pt2.csv"> CSV dataset </a>
+    <p></p>
+
+</body>
+</html>
